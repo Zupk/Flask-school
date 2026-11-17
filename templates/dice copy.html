@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Met kocke</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>🎲 Dice Game</h1>
+
+        <div class="result">
+            Vrgel si:
+        </div>
+
+        <div class="dice">
+            {{ kocka }}
+        </div>
+
+        <a href="/">← Nazaj na prvo</a>
+    </div>
+
+</body>
+</html>
